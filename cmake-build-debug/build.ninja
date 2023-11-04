@@ -49,8 +49,8 @@ cmake_ninja_workdir = D$:/cpp_files/TT/cmake-build-debug/
 
 build cmake_object_order_depends_target_TT: phony || CMakeFiles/TT.dir
 
-build CMakeFiles/TT.dir/cut_of_rod.cpp.obj: CXX_COMPILER__TT_unscanned_Debug D$:/cpp_files/TT/cut_of_rod.cpp || cmake_object_order_depends_target_TT
-  DEP_FILE = CMakeFiles\TT.dir\cut_of_rod.cpp.obj.d
+build CMakeFiles/TT.dir/knapsack.cpp.obj: CXX_COMPILER__TT_unscanned_Debug D$:/cpp_files/TT/knapsack.cpp || cmake_object_order_depends_target_TT
+  DEP_FILE = CMakeFiles\TT.dir\knapsack.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\TT.dir
   OBJECT_FILE_DIR = CMakeFiles\TT.dir
@@ -63,7 +63,7 @@ build CMakeFiles/TT.dir/cut_of_rod.cpp.obj: CXX_COMPILER__TT_unscanned_Debug D$:
 #############################################
 # Link the executable TT.exe
 
-build TT.exe: CXX_EXECUTABLE_LINKER__TT_Debug CMakeFiles/TT.dir/cut_of_rod.cpp.obj
+build TT.exe: CXX_EXECUTABLE_LINKER__TT_Debug CMakeFiles/TT.dir/knapsack.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\TT.dir

@@ -3,4 +3,4 @@ project(TT)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(TT cut_of_rod.cpp)
+add_executable(TT knapsack.cpp)
