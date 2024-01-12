@@ -3,4 +3,6 @@ project(TT)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(TT LIS.cpp)
+add_executable(TT
+        CW2/A.cpp
+)

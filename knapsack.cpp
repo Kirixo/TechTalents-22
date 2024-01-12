@@ -28,12 +28,12 @@ int main(){
 
         }
     }
-    /*for(auto vec : dp){
+    for(auto vec : dp){
         for(auto i : vec){
             printf("%i  ", i);
         }
         printf("\n");
-    }*/
+    }
     std::cout << dp[w][n];
     return 0;
 }
